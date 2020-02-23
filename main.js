@@ -1,8 +1,8 @@
 // Update this constant with your ServiceNow credentials
 const options = {
   url: 'https://dev95800.service-now.com/',
-  username: 'admin',
-  password: 'Marcose$4490'
+  username: 'pallab.acharyya@centurylink.com',
+  password: 'Barsarani123!@#'
 };
 /**
  * Import the Node.js request package.
