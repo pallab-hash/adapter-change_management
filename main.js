@@ -155,12 +155,7 @@ function post(serviceNowTable, callback) {
 
 
 
-//*
- * This section is used to test your project.
- * We will test both get() and post() functions.
- * If either function returns data, print the returned data to console on STDOUT.
- * If either function returns an error, print the returned data to the console on STDERR.
- */
+
 function main() {
   get('change_request', (data, error) => {
     if (error) {
