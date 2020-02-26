@@ -152,7 +152,8 @@ class ServiceNowAdapter extends EventEmitter {
      * Note how the object was instantiated in the constructor().
      * get() takes a callback function.
      */
-     ServiceNowConnector.get(callback);
+
+      ServiceNowConnector.get(callback);
   }
 
   /**
@@ -171,7 +172,7 @@ class ServiceNowAdapter extends EventEmitter {
      * Note how the object was instantiated in the constructor().
      * post() takes a callback function.
      */
-     ServiceNowConnector.post(callback)
+     ServiceNowConnector.post(callback);
   }
 }
 

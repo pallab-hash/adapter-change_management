@@ -8,9 +8,9 @@ const request = require('request');
 const validResponseRegex = /(2\d\d)/;
 // Update this constant with your ServiceNow credentials
 const options = {
-  url: `https://dev95800.service-now.com/`,
+  url: `https://dev100570.service-now.com/`,
   username: `admin`,
-  password: `Marcose$4490`,
+  password: `Abcd123!@#`,
   serviceNowTable: `change_request`
 };
 // Import built-in Node.js package path.
