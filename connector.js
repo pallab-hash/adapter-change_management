@@ -188,7 +188,7 @@ uri: this.uri
  */
 post(callOptions, callback) {
   callOptions.method = 'POST';
-  this.sendRequest(callOptions, (results, error) => callback(results, error));
+  this.sendRequest(callOptions,callOptions, (results, error) => callback(results, error));
 }
 
 }
