@@ -1,10 +1,3 @@
-// Update this constant with your ServiceNow credentials
-const options = {
-  url: 'https://dev63365.service-now.com/',
-  username: 'admin',
-  password: 'Abcd1234!@#$'
-};
-
 
 // Import built-in Node.js package path.
 const path = require('path');
